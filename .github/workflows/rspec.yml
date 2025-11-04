@@ -16,8 +16,8 @@ jobs:
 
     strategy:
       matrix:
-        ruby-version: [2.4.10, 2.5.9, 2.6.10, 2.7.6]
-        activemodel: [5.1.x, 5.2.x, 6.0.x, 6.1.x, 7.0.x]
+        ruby-version: [2.4.10, 2.5.9, 2.6.10, 2.7.6, 3.2.5]
+        activemodel: [5.1.x, 5.2.x, 6.0.x, 6.1.x, 7.0.x, 8.0.x]
         exclude:
           - ruby-version: 2.4.10
             activemodel: 6.0.x
