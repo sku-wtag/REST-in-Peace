@@ -25,6 +25,8 @@ jobs:
             activemodel: 6.1.x
           - ruby-version: 2.4.10
             activemodel: 7.0.x
+          - ruby-version: 2.4.10
+            activemodel: 8.0.x
           - ruby-version: 2.5.9
             activemodel: 7.0.x
           - ruby-version: 2.5.9
@@ -32,8 +34,6 @@ jobs:
           - ruby-version: 2.6.10
             activemodel: 7.0.x
           - ruby-version: 2.6.10
-            activemodel: 8.0.x
-          - ruby-version: 2.7.6
             activemodel: 8.0.x
           - ruby-version: 2.7.6
             activemodel: 8.0.x
