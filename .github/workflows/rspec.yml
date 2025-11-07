@@ -38,8 +38,6 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: ${{ matrix.ruby-version }}
-    - name: Update RubyGems
-      run: gem update --system
     - name: Install dependencies
       run: bundle install --gemfile gemfiles/Gemfile.activemodel-${{ matrix.activemodel }}
     - name: Run tests
